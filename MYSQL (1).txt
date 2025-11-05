@@ -1,0 +1,12 @@
+For those who using MYSQL database
+after successfully installing the MYSQL connector 
+Close the POWER BI and open again 
+Now GOTO Files -> Get data --> More --> database --> MYSQL database --> 
+server: localhost:portno for e.g ( localhost:3306)
+user name: root
+password  is when we install the MYSQL software, we have given, the same has to be update here, 
+DB : I have selected classicmodels
+
+mysql -u root -p
+source c:/temp/mysqlsampledatabase.sql
+show databases;
